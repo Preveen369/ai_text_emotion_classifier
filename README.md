@@ -118,7 +118,6 @@ ai_text_emotion_classifier/
 
 - `app/main.py` - FastAPI configuration
 - `app/models/` - ML model files and scripts
-- `.env` - Environment variables (optional)
 
 ---
 
