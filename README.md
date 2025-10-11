@@ -37,8 +37,6 @@ Below are some screenshots showcasing the **AI Text Emotion Classifier** interfa
 - **Language**: Python 3.10+
 - **ML Libraries**: Scikit-learn, TensorFlow/Keras
 - **Data Handling**: Pandas, NumPy
-- **Testing**: Pytest
-- **Deployment**: Docker
 
 ---
 
@@ -106,9 +104,8 @@ ai_text_emotion_classifier/
 ├── emotion-frontend/      # React frontend
 │   ├── src/
 │   └── public/
-├── tests/                 # Pytest test cases
-├── requirements.txt
-├── Dockerfile
+├── requirements.txt                 # Required python library files
+├── text_emotion_classifier.ipynb    # Model Training Notebook file
 └── README.md
 ```
 
@@ -117,7 +114,7 @@ ai_text_emotion_classifier/
 ## 🔧 Configuration
 
 - `app/main.py` - FastAPI configuration
-- `app/models/` - ML model files and scripts
+- `app/model/` - ML model files and scripts
 
 ---
 
@@ -127,7 +124,7 @@ ai_text_emotion_classifier/
 - **Naive Bayes (Scikit-learn)**: Classical ML for text classification
 - **Ensemble**: Combines both for improved accuracy
 
-You can retrain models using your own dataset and swap them in `emotion_app/model/`.
+You can even retrain models using your own dataset and swap them in `emotion_app/model/`.
 
 ---
 
@@ -137,7 +134,6 @@ You can retrain models using your own dataset and swap them in `emotion_app/mode
 
 - `uvicorn emotion_app.main:app --reload` - Start backend server
 - `cd emotion-frontend && npm start` - Start frontend development server
-- `pytest` - Run backend tests
 
 ### Adding New Models
 
