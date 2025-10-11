@@ -7,7 +7,7 @@
 ![ML](https://img.shields.io/badge/ML-Scikit_Learn,_Transformers-emerald.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-**AI Text Emotion Classifier** is a web application that uses machine learning to detect emotions in text. Powered by FastAPI and Python, it provides a simple API for emotion prediction and can be easily integrated into other apps or used for research.
+**AI Text Emotion Classifier** is a web application that uses machine learning to detect emotions in text. Powered by FastAPI and Python, it provides a simple API for emotion prediction and can be easily integrated into other apps or used for research purpose
 
 ---
 
