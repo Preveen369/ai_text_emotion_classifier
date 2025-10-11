@@ -26,7 +26,7 @@
 
 Below are some screenshots showcasing the **AI Text Emotion Classifier** interface:
 
-![Prediction Result](./screenshots/prediction_result.png)
+![prediction_result](./screenshots/prediction_result.png)
 
 ---
 
