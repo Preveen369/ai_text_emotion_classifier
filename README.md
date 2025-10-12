@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Core Features
+## 🚀 Core Features
 
 - **🧠 Emotion Detection**: Predicts emotions (e.g., joy, sadness, anger, fear) from user input text
 - **⚡ FastAPI Backend**: High-performance REST API for emotion classification
@@ -30,7 +30,7 @@ Below are some screenshots showcasing the **AI Text Emotion Classifier** interfa
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Tech Stack
 
 - **Backend**: FastAPI (see `emotion_app/main.py`)
 - **Frontend**: React (see `emotion-frontend/`)
@@ -53,28 +53,25 @@ Below are some screenshots showcasing the **AI Text Emotion Classifier** interfa
     pip install -r requirements.txt
     ```
 
-3. **(Optional) Set up environment variables**
-    Create a `.env` file in the root directory if needed.
-
-4. **Run the FastAPI server**
+3. **Run the FastAPI server**
     ```bash
     uvicorn emotion_app.main:app --reload
     ```
 
-5. **Install frontend dependencies**
+4. **Install frontend dependencies**
     ```bash
     cd emotion-frontend
     npm install
     npm start
     ```
 
-6. **Open your browser**
+5. **Open your browser**
     - Backend API docs: `http://localhost:8000/docs`
     - Frontend UI: `http://localhost:3000`
 
 ---
 
-## 🎯 Usage
+## 🧑‍💻 Usage
 
 ### API
 
@@ -141,7 +138,7 @@ Add your model to `app/models/` and update the loading logic in `main.py`.
 
 ---
 
-## 🚀 Deployment
+## 🛫 Deployment
 
 - **Docker**: Build and run with Docker
   ```bash
@@ -167,6 +164,12 @@ Add your model to `app/models/` and update the loading logic in `main.py`.
 - [FastAPI](https://fastapi.tiangolo.com/) for the backend framework
 - [Scikit-learn](https://scikit-learn.org/) for ML models
 - [HuggingFace Transformers](https://huggingface.co/transformers/) for advanced NLP models
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
